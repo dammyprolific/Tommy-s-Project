@@ -1,0 +1,74 @@
+.form-check-label {
+  font: 14px;
+  color: #555;
+}
+.login-footer a:hover {
+    text-decoration: underline;
+}
+.login-footer a {
+    color: #6050dc;
+    text-decoration: none;
+}
+.login-footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-primary:hover {
+    background-color: #4a47a3;
+    border-color: #4a47a3;
+}
+.btn-primary {
+    background-color: #6050dc;
+    border-color: #6050dc;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.form-control {
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-label {
+    font-weight: 500;
+    color: #333;
+}
+.login-subtitle {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+.login-title{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    
+
+}
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    font-size: 20px;
+
+}
+.login-card {
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+
+}
