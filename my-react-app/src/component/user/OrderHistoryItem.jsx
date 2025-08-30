@@ -26,7 +26,7 @@ const OrderHistoryItem = ({ item }) => {
                     <h6 className='text-muted'>{`Quantity: ${item.quantity}`}</h6>
                 </div>
                 <div className='col-md-2 text-center'>
-                    <h6 className='text-muted'>{`$${item.product.price}`}</h6>
+                    <h6 className='text-muted'>{`₦${item.product.price}`}</h6>
                 </div>
             </div>
         </div>

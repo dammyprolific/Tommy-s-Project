@@ -24,7 +24,7 @@ const OrderSummary = ({ cartItems, cartTotal, tax }) => {
           <hr />
           <div className='d-flex justify-content-between'>
             <h6>Total</h6>
-            <h6>{`$${total}`}</h6>
+            <h6>{`₦${total}`}</h6>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const CartItem = ({ item, cartItems, setCartItems, setNumberCartItems }) => {
   
 
   const price = parseFloat(product?.price || 0);
-  const displayPrice = isNaN(price) ? 'N/A' : `$${price.toFixed(2)}`;
+  const displayPrice = isNaN(price) ? 'N/A' : `₦${price.toFixed(2)}`;
 
   const updateCartItem = () => {
     const itemData = {

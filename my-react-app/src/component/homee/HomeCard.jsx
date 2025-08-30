@@ -23,7 +23,7 @@ const HomeCard = ({ product }) => {
           </div>
           <div className={styles.cardBody}>
             <h5 className={`${styles.cardTitle} mb-1`}>{product.name}</h5>
-            <h6 className={styles.cardText}>${product.price}</h6>
+            <h6 className={styles.cardText}>₦{product.price}</h6>
           </div>
         </div>
       </Link>
