@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(45deg,#ff9a9e,#fad0c4,#a1c4fd,#c2e9);
+    animation: colorShift 10s ease infinite;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+body::before {
+    content: "";
+    background-image: radial-gradient(#00000080 1px, transparent 1px);
+    opacity: 0;
+    animation: dotsFade 6s ease-in-out infinite;
+}
+body.dark-mode {
+  background: #222;
+  color: #fff;
+}

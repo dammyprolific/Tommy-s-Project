@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <header className='py-5' style={{ backgroundColor: "#6050DC" }}>
+        <header className='py-5' style={{ backgroundColor: "#dc5050ff" }}>
             <div className='container px-4 px-lg-5 my-5'>
                 <div className='text-center text-green'>
                     <h1 className='display-4 fw-bold'>Welcome To Your Favourite Store</h1>
