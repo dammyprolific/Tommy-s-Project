@@ -6,7 +6,7 @@ function useCartData(){
   const cartCode = localStorage.getItem('cart_code');
   const [cartItems, setCartItems] = useState([]);
   const [cartTotal, setCartTotal] = useState(0.0);
-  const tax = 4.0;
+  const tax = 1500.00;
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {

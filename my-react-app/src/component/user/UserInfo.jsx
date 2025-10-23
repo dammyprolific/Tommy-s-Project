@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './UserInfo.module.css'
-import pic from "../../assets/dammyPic.jpg"
+import pic from '../../assets/user.png'
 
 const UserInfo = ({userInfo}) => {
   return (
