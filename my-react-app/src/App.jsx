@@ -13,6 +13,7 @@ import { AuthProvider } from './context/AuthContext'
 import UserProfilePage from './component/user/UserProfilePage'
 import PaymentStatusPage from './component/payments/PaymentStatusPage'
 import RegisterPage from './component/user/RegisterPage'
+import VerifyOtp from './component/user/VerifyOtp'
 import './App.css'
 
 const App = () => {
@@ -49,7 +50,7 @@ const App = () => {
   return (
     <div>
       <button onClick={toggleDarkMode} style={{
-        position: 'fixed', top: 20, right: 20, zIndex: 1000, padding: '10px 20px',
+        position: 'fixed', top: 80, right: 20, zIndex: 1000, padding: '10px 20px',
         borderRadius: '9px', border: 'none', cursor: 'pointer'
       }}>
         {darkMode ? 'Light Mode' : 'Dark Mode'}
@@ -67,6 +68,7 @@ const App = () => {
               <Route path='login' element={<LoginPage />} />
               <Route path='profile' element={<UserProfilePage />} />
               <Route path='register' element={<RegisterPage />} />
+              <Route path='verify-otp' element={<VerifyOtp />} />
               <Route path='*' element={<NotFoundPage />} />
               <Route path='payment-status' element={<PaymentStatusPage setNumberCartItems={setNumberCartItems} />} />
             </Route>

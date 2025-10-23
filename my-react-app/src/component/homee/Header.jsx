@@ -2,7 +2,9 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <header className='py-5' style={{ backgroundColor: "#dc5050ff" }}>
+        <header className='py-5' style={{ backgroundColor: "linear-gradient(45deg,#ff9a9e,#fad0c4,#a1c4fd,#c2e9,#d4fc79,#96e6a1,#84fab0,#8fd3f4,#a6c0fe,#f68084)",
+            animation: 'gradientShift 10s ease infinite',
+         }}>
             <div className='container px-4 px-lg-5 my-5'>
                 <div className='text-center text-green'>
                     <h1 className='display-4 fw-bold'>Welcome To Your Favourite Store</h1>

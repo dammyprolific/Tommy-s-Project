@@ -1,6 +1,6 @@
 body{
-    background: linear-gradient(45deg,#ff9a9e,#fad0c4,#a1c4fd,#c2e9);
-    animation: colorShift 10s ease infinite;
+    background: linear-gradient(45deg,#ff9a9e,#fad0c4,#a1c4fd,#c2e9,#d4fc79,#96e6a1,#84fab0,#8fd3f4,#a6c0fe,#f68084);
+    animation: gradientShift 10s ease infinite;
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;

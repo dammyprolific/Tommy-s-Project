@@ -12,7 +12,11 @@ const HomeCard = ({ product }) => {
         <div className={styles.card}>
           <div className={styles.cardImgWrapper}>
             <img
-              src={`${BASE_URL}${product.image}`}
+              src={
+                product.image && product.image.startsWith('http')
+                  ? product.image
+                  : `${BASE_URL}${product.image}`
+              }
               className={styles.cardImgTop}
               alt={product.name}
               onError={(e) => {
@@ -23,7 +27,7 @@ const HomeCard = ({ product }) => {
           </div>
           <div className={styles.cardBody}>
             <h5 className={`${styles.cardTitle} mb-1`}>{product.name}</h5>
-            <h6 className={styles.cardText}>₦{product.price}</h6>
+            <h6 className={styles.cardText}>₦{product.formatted_price}</h6>
           </div>
         </div>
       </Link>
