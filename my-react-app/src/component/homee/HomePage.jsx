@@ -108,16 +108,24 @@ const HomePage = () => {
             />
           </div>
 
-          <div className="mb-3 d-flex justify-content-between align-items-center" style={{ flexWrap: 'wrap', gap: '10px' }}>
-            <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value)} className="form-select" style={{ width: '200px',background:'purple',color:'white'}}> 
+          <div className="mb-3 d-flex justify-content-between align-items-center" 
+          style={{ flexWrap: 'wrap', gap: '10px' }}>
+            <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value)} className="form-select" 
+            style={{ width: '200px',background:'purple',color:'white'}}> 
               <option value="asc">Oldest - Newest</option>
               <option value="desc">Newest - Oldest</option>
             </select>
 
             <div>
-              <button className="btn btn-outline-primary" onClick={handlePrev} disabled={!hasPrevious && page === 1} style={{background:'purple'}}>Prev</button>
+              <button className="btn btn-outline-primary" 
+              onClick={handlePrev} 
+              disabled={!hasPrevious && page === 1} 
+              style={{background:'purple'}}>Prev</button>
               <span className="mx-2">Page {page} of {totalPages}</span>
-              <button className="btn btn-outline-primary" onClick={handleNext} disabled={!hasNext && page === totalPages} style={{background:'red'}}>Next</button>
+              <button className="btn btn-outline-primary" 
+              onClick={handleNext}
+               disabled={!hasNext && page === totalPages} 
+               style={{background:'red'}}>Next</button>
             </div>
           </div>
         </div>
